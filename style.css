@@ -1,0 +1,30 @@
+.dropdown_button {
+  border: none;
+  outline: none;
+  background-color: cadetblue;
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+}
+.dropdown_list {
+  background-color: darkkhaki;
+  width: 200px;
+  text-align: center;
+  display: none;
+}
+.dropdown_list a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  color: aliceblue;
+}
+
+.dropdown:hover .dropdown_list {
+  display: block;
+}
